@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+* {
+    margin: 0;
+}
+
+
+
+
+/*Main page & characters pages*/
+
+body {
+    background-image: url(/images/main-backgroung.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#header {
+    background-image: url(/images/snow-bar.jpg);
+    width: 100%;
+    height: 150px;
+    color: #f5f5e4;
+    text-align: center;
+    line-height: 150px;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 6vw;
+    border-radius: 5px;
+}
+
+
+
+
+/*Main page*/
+
+.charecters-main-link {
+    color: blueviolet;
+    text-decoration: none;
+}
+
+.charecters-main-link:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+#list-character {
+    list-style-position: inside;
+    margin: 35%;
+    width: 30%;
+    height: 266px;
+    background: black url(/images/list-backgroung.png) no-repeat center;
+    margin-top: 150px;
+    background-size: 100% 266px;
+    border-radius: 25px;
+
+}
+
+ol li {
+    padding-left: 20px;
+    padding-top: 5px;
+    color: blueviolet;
+}
+
+ol li:first-of-type {
+    padding-top: 20px;
+}
+
+
+
+/*Characters pages*/
+
+.charecter-site-title {
+    background-image: url(/images/snow-bar.jpg);
+    font-family: 'Permanent Marker', cursive;
+    font-size: 6vw;
+    height: 10vw;
+    line-height: 10vw;
+    background-color: black;
+    text-align: center;
+    width: 80vw;
+    margin: 2vw 10vw 5vw 10vw;
+    border-radius: 15px;
+    color: #f5f5e4;
+}
+
+.character-pages-background {
+    background-color: aliceblue;
+}
+
+.character-maim-info {
+    margin-left: 5%;
+    width: 50%;
+    padding: 5vw 1vw;
+    background-color: #cfd2e8;
+    border: 3px solid #bcc2e6;
+    border-radius: 25px;
+    float: left;
+}
+
+.character-img {
+    width: 30%;
+    margin-right: 5%;
+    float: right;
+
+}
+
+.main-page-link {
+    width: 20px;
+    height: 20px;
+    color: blueviolet;
+    text-decoration: none;
+}
+
+.main-page-link:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+.character-youtube-link {
+    color: blueviolet;
+    text-decoration: none;
+}
+
+.character-youtube-link:hover {
+    color: blue;
+    text-decoration: underline;
+}
